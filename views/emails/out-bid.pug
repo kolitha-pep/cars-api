@@ -1,0 +1,23 @@
+extends ../email
+
+block content
+  p Hello #{name},
+  p
+  p A new bid of $#{bid} has been placed on the #{title} by another buyer. The amount of $#{holdAmount} has been refunded to you.
+  table.body-wrap(width='600' bgcolor='#eeeeee')
+              tbody
+                tr
+                  td
+                  td.container(bgcolor="#eeeeee" align="center")
+                    .content.main
+                      table
+                        tbody
+                          tr
+                            td
+                              a(href=url) View auction
+                  td
+  p
+  p
+
+
+

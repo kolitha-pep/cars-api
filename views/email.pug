@@ -1,0 +1,86 @@
+doctype html
+html
+  head
+    meta(name='viewport' content='width=device-width')
+    meta(http-equiv='Content-Type' content='text/html; charset=UTF-8')
+    title OneMoreCar
+    style.
+      body {
+      background-color: #F2ECDE;
+      color: white
+      text-align: center;
+      }
+      .footer-text {
+      color: #db2828 ;
+      }
+      .head-wrap, .body-wrap, .footer-wrap {
+      display: block; }
+      .footer-wrap, .head-wrap {
+      background-color: #333333;
+      padding: 10px; }
+      .wrapper {
+      background-color: white;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 5px;
+      border: 1px solid silver; }
+      .header {
+      font-size: 12px;
+      text-align: center; }
+      a {
+      color: #fc6b6b; }
+      a:hover {
+      color: #fb3939; }
+      .inline {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      .inline li {
+      float: left;
+      margin-right: 2px;
+      padding: 5px; }
+  table(width='800' bgcolor='f6f6f6')
+    tbody
+      tr
+        td
+          .wrapper
+            table.head-wrap
+              tbody
+                tr
+                  td
+                  td.header.container
+                    .content
+                      table
+                        tbody
+                          tr
+                            td
+                              img(width='200' src='https://northerngarageweb.info/images/logo-black.png')
+                  td
+            table.body-wrap(width='800')
+              tbody
+                tr
+                  td
+                  td.container(bgcolor='#FFFFFF')
+                    .content.main
+                      table(align='center')
+                        tbody
+                          tr
+                            td
+                              block content
+                  td
+            table.footer-wrap
+              tbody
+                tr
+                  td &nbsp;
+                  td.container
+                    .content
+                      table
+                        tbody
+                          tr
+                            td.footer-text(align='left')
+                              p
+                                b
+                                  | Best regards,
+                                  br
+                                  |                           onemorecar Team
+                  td &nbsp;

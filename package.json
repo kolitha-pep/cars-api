@@ -1,0 +1,60 @@
+{
+  "name": "cars-bids-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "start-development": "NODE_ENV=development forever ./bin/www",
+    "start-production": "NODE_ENV=production forever ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kolitha-pep/carsAPI.git"
+  },
+  "author": "Kolitha Perera",
+  "license": "(C) 2020 Kolitha Perera",
+  "homepage": "https://github.com/kolitha-pep/cars-API",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.6",
+    "acorn": "^6.0.5",
+    "aws-sdk": "^2.383.0",
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.3",
+    "config": "^3.0.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-joi-validation": "^0.3.0",
+    "generate-password": "^1.4.1",
+    "html-to-text": "^5.1.1",
+    "http-errors": "~1.6.2",
+    "joi": "^14.3.0",
+    "joi-date-extensions": "^1.2.0",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.23.0",
+    "mongoose": "^5.3.16",
+    "mongoose-seed": "^0.5.1",
+    "morgan": "~1.9.0",
+    "node-cron": "^2.0.3",
+    "node-sass-middleware": "0.11.0",
+    "nodemon": "^1.18.9",
+    "pug": "^2.0.0-beta11",
+    "simple-node-logger": "^18.12.24",
+    "socket.io": "^2.2.0",
+    "stripe": "^5.10.0",
+    "uniqid": "^5.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "nodemon": "^1.18.9"
+  }
+}

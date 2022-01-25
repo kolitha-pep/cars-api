@@ -1,0 +1,24 @@
+extends ../email
+
+block content
+  p Hello #{name},
+  p
+  p Welcome to onemorecar.ca. The best Canadian platform to buy and sell speciality cars.
+  p To continue to your account, 
+    a(href=url) click here 
+  table.body-wrap(width='600' bgcolor='#eeeeee')
+              tbody
+                tr
+                  td
+                  td.container(bgcolor="#eeeeee" align="center")
+                    .content.main
+                      table
+                        tbody
+                          tr
+                            td
+                              a(href=url) View current auctions
+                  td
+
+  p Thank you for signing up.
+  p
+  p

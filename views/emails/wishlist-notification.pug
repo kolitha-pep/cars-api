@@ -1,0 +1,20 @@
+extends ../email
+
+block content
+  p Hello #{name},
+  p
+  p The auction #{auction_name} which is in your wishlist, has reached to it's end and it will be finished by today.
+  table.body-wrap(width='600' bgcolor='#eeeeee')
+              tbody
+                tr
+                  td
+                  td.container(bgcolor="#eeeeee" align="center")
+                    .content.main
+                      table
+                        tbody
+                          tr
+                            td
+                              a(href=url) View auction
+                  td
+  p
+  p

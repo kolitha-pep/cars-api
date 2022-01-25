@@ -1,0 +1,11 @@
+extends ../email
+
+block content
+  p Hello #{name},
+  p
+  p We regret to inform you that the #{title} that you’ve been bidding on is no longer open to bids. The hold of $#{holdAmount} has been refunded to your credit card.
+  p
+    a(href=url) LINK
+  p Sorry for any inconvenience caused.
+  p
+  p

@@ -1,0 +1,21 @@
+extends ../email
+
+block content
+  p Hello #{name},
+  p
+  p Congratulations! We wanted to let you know that your bid on the #{title} was confirmed, you are now the highest bidder. A hold of $#{holdAmount} (#{holdPercentage}% of bid value) has been placed on your credit card.
+  p We wish you the best of luck.
+  table.body-wrap(width='600' bgcolor='#eeeeee')
+    tbody
+      tr
+        td
+        td.container(bgcolor="#eeeeee" align="center")
+          .content.main
+            table
+              tbody
+                tr
+                  td
+                    a(href=url) View auction
+        td
+  p
+  p  
